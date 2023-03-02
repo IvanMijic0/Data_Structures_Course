@@ -23,7 +23,7 @@ public class MaxInteger {
 
     public static int findMax(int[] array){
         int max = array[0];
-        for (int i = 1; i < array.length - 1; i++) {
+        for (int i = 1; i < array.length; i++) {
             if (array[i] > max)
                 max = array[i];
         }
