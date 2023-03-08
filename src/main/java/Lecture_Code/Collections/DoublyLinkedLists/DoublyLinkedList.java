@@ -1,7 +1,15 @@
 package Lecture_Code.Collections.DoublyLinkedLists;
 
 import java.util.Iterator;
+/**
+ * Doubly linked list implementation.
 
+ * Implement the missing method code.
+ * Feel free to delete "return null", etc. lines; they're just placeholders.
+ *
+ * @author Aldin Kovačević
+ * @author Amar Mujagić
+ */
 public class DoublyLinkedList<Item> implements Iterable<Item> {
     private Node2<Item> head;
     private Node2<Item> tail;
@@ -77,7 +85,6 @@ public class DoublyLinkedList<Item> implements Iterable<Item> {
         }
         return current.data;
     }
-
 
     /* Return the current size of the doubly linked list */
     public int count() {
