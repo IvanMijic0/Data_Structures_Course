@@ -24,8 +24,7 @@ public class MaxIntegerTest {
     public void tearDown() {}
 
     @AfterAll
-    public static void tearDownAfterClass() {
-        numbers = null;
+    public static void tearDownAfterClass() {        numbers = null;
     }
 
     @Test

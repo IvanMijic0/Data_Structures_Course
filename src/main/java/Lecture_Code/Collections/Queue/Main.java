@@ -22,9 +22,13 @@ public class Main {
         }
         // How not to program 101
         // Read that ternary operator is faster and more readable than an if-else block
+        // Not sure that it's better in this case
 
         queue.enqueue(4);
         System.out.println("Queue size: ".concat(Integer.toString(queue.size())));
+
+
+
     }
 }
 

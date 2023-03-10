@@ -11,6 +11,9 @@ import java.util.Iterator;
  * @author Amar Mujagić
  */
 public class DoublyLinkedList<Item> implements Iterable<Item> {
+
+
+
     private Node2<Item> head;
     private Node2<Item> tail;
     private int size = 0;

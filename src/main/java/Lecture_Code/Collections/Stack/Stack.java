@@ -39,6 +39,22 @@ public class Stack<Item> {
         return dataToBeReturned;
     }
 
+    public Item get(int index) {
+        if (index < 0 || index >= this.size){
+            throw new IndexOutOfBoundsException("Invalid linked list node");
+        }
+
+        Node<Item> current = this.top;
+        int i = 0;
+
+        while (i < index){
+            current = current.next;
+            i++;
+        }
+        return current.data;
+    }
+
+
     /* Return the current size of the stack */
     public int size() {
         return this.size;
